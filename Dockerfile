@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the necessary files
 COPY models /app/models
 COPY Notebooks /app/Notebooks
-COPY date_transformer.py /app/date_transformer.py
+COPY Notebooks/date_transformer.py /app/date_transformer.py
 COPY main.py /app/main.py
 COPY requirements.txt /app/requirements.txt
 
